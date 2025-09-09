@@ -1,31 +1,28 @@
 # Estudo Docker - Containers
 
-## Sobre
-Este repositório documenta meu aprendizado sobre Docker e containerização.
+Repositório destinado ao estudo de Docker e containerização. Todas as tarefas foram realizadas seguindo os passos do estudo dirigido.
 
-**Autor:** [Seu Nome]  
-**Curso:** [Nome do seu Curso Técnico]  
-**Disciplina:** [Nome da Disciplina]  
+## Tarefa 1: Configuração inicial e testes
 
-## O que estou aprendendo
-- Conceitos fundamentais do Docker
-- Como criar e gerenciar containers
-- Como criar imagens com Dockerfile
-- Como configurar bancos de dados em containers
-- Como orquestrar aplicações com Docker Compose
+### Objetivos
+- Instalar e configurar o Docker.
+- Criar os diretórios do projeto (`containers`, `compose`, `scripts`, `evidencias`).
+- Criar arquivos de controle (`README.md`, `comandos-docker.txt`).
+- Executar testes iniciais de containers (ex: `hello-world`).
 
-## Estrutura do Projeto
-- containers/  - Dockerfiles e exemplos
-- compose/     - docker-compose.yml e app
-- scripts/     - scripts SQL e de backup/monitoramento
-- evidencias/  - screenshots, logs e evidências
-- README.md
+### Checklist Concluído ✅
+- [x] Criar estrutura de pastas do projeto.
+- [x] Criar e inicializar `README.md`.
+- [x] Criar arquivo `comandos-docker.txt`.
+- [x] Executar `docker version` e salvar evidência.
+- [x] Executar `docker images` e salvar evidência.
+- [x] Executar `docker ps -a` e salvar evidência.
+- [x] Executar `docker run hello-world` e salvar evidência.
+- [x] Commit inicial e push para GitHub.
 
-## Status do Estudo
-- [x] Tarefa 1 - Primeiro container
-- [ ] Tarefa 2 - Container personalizado
-- [ ] Tarefa 3 - Banco de dados
-- [ ] Tarefa 4 - Docker Compose
-
-Data de reinício: 
-Data: Tue Sep  9 16:39:00     2025
+### Evidências
+- ![Tarefa 1](evidencias/Tarefa1.png)
+- ![Docker Version](evidencias/tarefa1-docker-version.txt)
+- ![Docker Images](evidencias/tarefa1-docker-images.txt)
+- ![Docker PS](evidencias/tarefa1-docker-ps.txt)
+- ![Hello World Output](evidencias/tarefa1-hello-output.txt)
