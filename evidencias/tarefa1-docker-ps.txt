@@ -1,0 +1,7 @@
+CONTAINER ID   IMAGE              COMMAND                  CREATED          STATUS                           PORTS                  NAMES
+9a278756e2c3   hello-world        "/hello"                 17 seconds ago   Exited (0) 17 seconds ago                               quizzical_franklin
+ef495aa69ef1   hello-world        "/hello"                 44 minutes ago   Exited (0) 44 minutes ago                               loving_solomon
+325bcd51030b   minha-webapp:1.0   "/docker-entrypoint.…"   22 hours ago     Exited (255) About an hour ago   0.0.0.0:8080->80/tcp   unruffled_almeida
+2fb69907129c   ubuntu:latest      "/bin/bash"              23 hours ago     Exited (255) About an hour ago                          nice_cohen
+358a03ab12db   ubuntu:latest      "/bin/bash"              23 hours ago     Exited (255) About an hour ago                          friendly_johnson
+4ecb32a7205b   ubuntu:latest      "/bin/bash"              23 hours ago     Exited (255) About an hour ago                          wizardly_nobel

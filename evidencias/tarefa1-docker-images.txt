@@ -1,0 +1,6 @@
+REPOSITORY     TAG       IMAGE ID       CREATED        SIZE
+compose-app    latest    3430169fdd10   15 hours ago   329MB
+minha-webapp   1.0       79f21a3900cf   22 hours ago   79.4MB
+mysql          8.0       d2fdd0af2893   24 hours ago   1.07GB
+ubuntu         latest    9cbed7541129   3 weeks ago    117MB
+hello-world    latest    a0dfb02aac21   4 weeks ago    20.3kB
