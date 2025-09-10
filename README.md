@@ -26,3 +26,35 @@ Repositório destinado ao estudo de Docker e containerização. Todas as tarefas
 - ![Docker Images](evidencias/tarefa1-docker-images.txt)
 - ![Docker PS](evidencias/tarefa1-docker-ps.txt)
 - ![Hello World Output](evidencias/tarefa1-hello-output.txt)
+## Tarefa 2 - Containers: Nginx e Ubuntu
+
+### Objetivos
+- Rodar um container Nginx e acessar a página padrão no navegador.
+- Rodar um container Ubuntu e inspecionar o diretório /etc.
+- Gerar evidências das operações realizadas.
+
+### Checklist
+- [x] Rodar container Nginx em background (`docker run -d --name nginx-tarefa2 -p 8080:80 nginx:latest`)  
+- [x] Verificar acesso no navegador: `http://localhost:8080/`  
+- [x] Rodar container Ubuntu em background (`docker run -d --name ubuntu-tarefa2 ubuntu:latest tail -f /dev/null`)  
+- [x] Listar /etc dentro do Ubuntu e salvar em arquivo  
+- [x] Salvar evidências:
+  - Saída `ls /etc` do Ubuntu
+  - Lista de containers (`docker ps -a`)
+  - Lista de imagens (`docker images`)
+  - Screenshot da página Nginx
+- [x] Commitar e enviar alterações para o GitHub
+
+### Evidências
+
+**1. Ubuntu /etc**
+![evidência](evidencias/tarefa2-ubuntu-ls.txt)
+
+**2. Lista de containers**
+![evidência](evidencias/tarefa2-docker-ps.txt)
+
+**3. Lista de imagens**
+![evidência](evidencias/tarefa2-docker-images.txt)
+
+**4. Página Nginx**
+![evidência](evidencias/tarefa2-nginx.png)
