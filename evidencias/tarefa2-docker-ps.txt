@@ -1,7 +1,7 @@
 CONTAINER ID   IMAGE              COMMAND                  CREATED          STATUS                      PORTS                                     NAMES
-cea912a9d6b5   ubuntu:latest      "sleep infinity"         21 minutes ago   Up 21 minutes                                                         ubuntu-tarefa2
-174cf5397421   nginx:latest       "/docker-entrypoint.…"   34 minutes ago   Up 34 minutes               0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   nginx-tarefa2
-9a278756e2c3   hello-world        "/hello"                 8 hours ago      Exited (0) 8 hours ago                                                quizzical_franklin
+cea912a9d6b5   ubuntu:latest      "sleep infinity"         29 minutes ago   Up 29 minutes                                                         ubuntu-tarefa2
+174cf5397421   nginx:latest       "/docker-entrypoint.…"   42 minutes ago   Up 42 minutes               0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   nginx-tarefa2
+9a278756e2c3   hello-world        "/hello"                 9 hours ago      Exited (0) 9 hours ago                                                quizzical_franklin
 ef495aa69ef1   hello-world        "/hello"                 9 hours ago      Exited (0) 9 hours ago                                                loving_solomon
 325bcd51030b   minha-webapp:1.0   "/docker-entrypoint.…"   31 hours ago     Exited (255) 10 hours ago   0.0.0.0:8080->80/tcp                      unruffled_almeida
 2fb69907129c   ubuntu:latest      "/bin/bash"              32 hours ago     Exited (255) 10 hours ago                                             nice_cohen
