@@ -1,0 +1,1 @@
+Capture manualmente a tela do navegador acessando http://localhost:8080/ e salve como evidencias/tarefa2-nginx.png
