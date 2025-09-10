@@ -1,0 +1,9 @@
+CONTAINER ID   IMAGE              COMMAND                  CREATED          STATUS                     PORTS                                     NAMES
+174cf5397421   nginx:latest       "/docker-entrypoint.…"   2 minutes ago    Up 2 minutes               0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   nginx-tarefa2
+c2673f7e7cab   ubuntu:latest      "bash"                   10 minutes ago   Exited (0) 2 minutes ago                                             ubuntu-tarefa2
+9a278756e2c3   hello-world        "/hello"                 8 hours ago      Exited (0) 8 hours ago                                               quizzical_franklin
+ef495aa69ef1   hello-world        "/hello"                 9 hours ago      Exited (0) 9 hours ago                                               loving_solomon
+325bcd51030b   minha-webapp:1.0   "/docker-entrypoint.…"   30 hours ago     Exited (255) 9 hours ago   0.0.0.0:8080->80/tcp                      unruffled_almeida
+2fb69907129c   ubuntu:latest      "/bin/bash"              31 hours ago     Exited (255) 9 hours ago                                             nice_cohen
+358a03ab12db   ubuntu:latest      "/bin/bash"              31 hours ago     Exited (255) 9 hours ago                                             friendly_johnson
+4ecb32a7205b   ubuntu:latest      "/bin/bash"              31 hours ago     Exited (255) 9 hours ago                                             wizardly_nobel
